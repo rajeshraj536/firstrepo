@@ -72,6 +72,7 @@ public class stringValue {
 	  // @Test
 		public void kk2() throws InterruptedException{
 		   driver.navigate().to("https://twitter.com/EASPORTSFIFA");
+                   driver.navigate().to("https://twitter.com/EASPORTSFIFA");
 		   driver.findElement(By.cssSelector("a.media-thumbnail")).click();
 		   Thread.sleep(10000);
 		   System.out.println("Clicking on each Image");
